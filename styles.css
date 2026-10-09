@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffb5f1;
+}
+
+.card {
+    background: rgb(255, 205, 246);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(160, 150, 252);
+    text-align: center;
+    width: 300px;
+    transition: all 0.3s ease; /* Suaviza los cambios de color */
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* CLASE INACTIVA: La activaremos con JavaScript */
+.perfil-premium {
+    background: linear-gradient(135deg, #ffb4da, #f56fae);
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.perfil-premium img {
+    border: 4px solid rgb(162, 218, 243);
+}
